@@ -1,7 +1,7 @@
 //// -- LEVEL 1
 //// -- Tables and References
 
-/% Creating tables %/
+/* Creating tables */
 Create Table users as U {
   id int [pk, increment] // auto-increment
   full_name varchar
