@@ -2,17 +2,17 @@
 //// -- Tables and References
 
 /* Creating tables */
-Create Table users as U {
-  id int [pk, increment] // auto-increment
-  full_name varchar
-  gender char
-  age int
+Create Table users {
+  id int NOT NULL AUTO_INCREMENT,
+  full_name varchar(255),
+  gender chara,
+  age int,
   created_at timestamp
 }
 
 Create Table location {
-  code int [pk] 
-  name varchar
+  code int PRIMARY KEY, 
+  name varchar,
   continent_name varchar
  }
 
