@@ -5,7 +5,7 @@
 Create Table users {
   id int NOT NULL AUTO_INCREMENT,
   full_name varchar(255),
-  gender chara,
+  gender char,
   age int,
   created_at timestamp
 }
